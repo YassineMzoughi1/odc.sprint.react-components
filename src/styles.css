@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f6f6f6; }
+.app { max-width: 560px; margin: 40px auto; padding: 0 16px; }
+.add-form { display: flex; gap: 8px; margin-bottom: 12px; }
+.add-form input { flex: 1; padding: 8px; }
+.filter-bar { display: flex; gap: 8px; margin-bottom: 12px; }
+.filter--active { background: #ff7900; color: #fff; border-color: #ff7900; }
+.item-list { list-style: none; padding: 0; margin: 0; }
+.item { display: flex; gap: 12px; align-items: flex-start; background: #fff; border: 1px solid #ddd; padding: 10px; margin-bottom: 8px; cursor: pointer; }
+.item--done .item__title { text-decoration: line-through; color: #777; }
+.item__status { font-size: 12px; min-width: 48px; }
+.item__description { margin: 4px 0 0; color: #555; font-size: 14px; }
+.empty { color: #777; }
